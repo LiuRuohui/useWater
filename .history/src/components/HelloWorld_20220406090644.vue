@@ -1,0 +1,33 @@
+<script setup>
+
+</script>
+
+<template>
+<div class="w-full h-screen flex flex-row">
+  <div class="w-1/4 h-screen justify-center items-center flex flex-col">
+    <div class="w-full h-20 justify-center items-center flex">
+        <div class="w-5/6">
+            <button class="btn text-white justify-center items-center shadow-xl">立即购买</button>
+        </div>
+    </div>
+    <div class="w-full flex flex-grow bg-gray-50 justify-center">
+        <div class="w-5/6 pt-4 flex flex-col">
+            <div class="h-8 text-xl opacity-40 pl-2">仪表面板</div>
+            <div class="mt-4 flex flex-grow">
+                <select name="数据中心" id="" class="h-8 text-xl w-full outline-none border-none">
+                    <option value="">1</option>
+                    <option value="">2</option>
+                </select>
+            </div>
+        </div>
+    </div>
+  </div>
+  <div class="flex flex-grow bg-yellow-50">
+
+  </div>
+</div>
+</template>
+
+<style scoped>
+
+</style>
